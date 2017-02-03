@@ -6,7 +6,7 @@ using System.Data;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;  
 
-namespace JASH
+namespace SYWEB_V8_Workstation
 {
     /*http://www.magicsite.cn/blog/NET/csharp/csharp425672.html*/
 
@@ -62,6 +62,14 @@ namespace JASH
             get { return m_blnDash; }
         }
 
+        private bool m_blnArrow;
+        [Browsable(true), Category("自訂屬性"), Description("設定是否有箭頭的線段")]
+        public bool blnArrow
+        {
+            set { m_blnArrow = value; }
+            get { return m_blnArrow; }
+        }
+
         ///   
         /// 构造函数初始颜色和线粗细  
         ///   
@@ -71,6 +79,7 @@ namespace JASH
             this.lineColor = this.ForeColor;
             this.lineWidth = 2;
             m_blnDash = false;
+            m_blnArrow = false;
         }
 
         ///
@@ -113,7 +122,7 @@ namespace JASH
 
             Pen myPen = new Pen(this.lineColor);
 
-            myPen.Width = this.lineWidth * 2;
+            myPen.Width = this.lineWidth/2;//為了雙箭頭修改-2017/02/03
 
             this.Height = this.LineWidth;
 
@@ -123,9 +132,21 @@ namespace JASH
             }
             else
             {
-                myPen.DashStyle = DashStyle.Dash;
+                myPen.DashStyle = DashStyle.Dot;//DashStyle.Dash;
             }
-            g.DrawLine(myPen, 0, 0, e.ClipRectangle.Right, 0);
+
+            if (m_blnArrow == false)//http://myericho.blogspot.tw/2014/05/c_2.html
+            {
+                myPen.StartCap = System.Drawing.Drawing2D.LineCap.Flat;
+                myPen.EndCap = System.Drawing.Drawing2D.LineCap.Flat;
+            }
+            else
+            {
+                myPen.StartCap = LineCap.ArrowAnchor;
+                myPen.EndCap = LineCap.ArrowAnchor;
+            }
+
+            g.DrawLine(myPen, 0, lineWidth / 2, e.ClipRectangle.Right, lineWidth / 2);//為了雙箭頭修改-2017/02/03
 
         }
         private void LineX_Resize(object sender, System.EventArgs e)
@@ -183,15 +204,24 @@ namespace JASH
             get { return m_blnDash; }
         }
 
-	            ///   
-	/// 构造函数初始颜色和线粗细  
-	///   
+        private bool m_blnArrow;
+        [Browsable(true), Category("自訂屬性"), Description("設定是否有箭頭的線段")]
+        public bool blnArrow
+        {
+            set { m_blnArrow = value; }
+            get { return m_blnArrow; }
+        }
+
+	    ///   
+        /// 构造函数初始颜色和线粗细  
+        ///   
 	    public LineY()  
 	    {  
 		    InitializeComponent();  
 		    this.lineColor=this.ForeColor;  
 		    this.lineWidth=2;
             m_blnDash=false;
+            m_blnArrow = false;
 	    }  
 
 	    ///   
@@ -228,8 +258,8 @@ namespace JASH
 	    private void LineY_Paint(object sender, System.Windows.Forms.PaintEventArgs e)
 	    {  
 		    Graphics g=e.Graphics;  
-		    Pen myPen = new Pen(this.lineColor);  
-		    myPen.Width=this.lineWidth*2;  
+		    Pen myPen = new Pen(this.lineColor);
+            myPen.Width = this.lineWidth / 2;//為了雙箭頭修改-2017/02/03 
 		    this.Width=this.LineWidth;
 
             if (m_blnDash == false)//http://www.developer.com/net/csharp/article.php/1436621
@@ -238,13 +268,25 @@ namespace JASH
             }
             else
             {
-                myPen.DashStyle = DashStyle.Dash;
+                myPen.DashStyle = DashStyle.Dot;//DashStyle.Dash;
             }
-		    g.DrawLine(myPen,0,0,0,e.ClipRectangle.Bottom);
+
+            if (m_blnArrow == false)//http://myericho.blogspot.tw/2014/05/c_2.html
+            {
+                myPen.StartCap = System.Drawing.Drawing2D.LineCap.Flat;
+                myPen.EndCap = System.Drawing.Drawing2D.LineCap.Flat;
+            }
+            else
+            {
+                myPen.StartCap = LineCap.ArrowAnchor;
+                myPen.EndCap = LineCap.ArrowAnchor;
+            }
+
+            g.DrawLine(myPen, lineWidth / 2, 0, lineWidth / 2, e.ClipRectangle.Bottom);//為了雙箭頭修改-2017/02/03 
 	    }  
 	    private void LineY_Resize(object sender, System.EventArgs e)  
 	    {  
-		    this.Width=this.lineWidth;
+		    this.Width=lineWidth;
 	    }  
     }
 }
