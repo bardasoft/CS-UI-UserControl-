@@ -6,8 +6,11 @@ using System.Data;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;  
 
-namespace SYWEB_V8_Workstation
+namespace JASH
 {
+    /*
+     有自訂屬性的標準做法
+    */
     /*http://www.magicsite.cn/blog/NET/csharp/csharp425672.html*/
 
     ///   

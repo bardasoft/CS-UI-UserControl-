@@ -8,6 +8,10 @@ using System.Drawing.Drawing2D;
 
 namespace JASH
 {
+    /*
+     此元件實現了內部事件轉發的到外部的功能
+     是自製元件事件處理很好的參考
+    */ 
     class JLMultiLineButton:RoundPanel
     {
         public Form pForm;
@@ -26,7 +30,7 @@ namespace JASH
             this.m_intIndex = 0;
 
 
-            //產生紫元件實體
+            //產生子元件實體
             txtSub = new JASH.JLLabel();
             txtMain = new JASH.JLLabel();
             imIcon = new System.Windows.Forms.PictureBox();
@@ -205,7 +209,7 @@ namespace JASH
                  */
             }
             //--
-            ((Form1)pForm).JLMultiLineButton(m_intIndex);
+            ((Form1)pForm).JLMultiLineButton(m_intIndex);//非正規作法，若使用正規做法要把這行註解
         }
     }
 }
