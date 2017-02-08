@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace JASH.UI_Lib
+namespace SYWEB_V8_Workstation.UI_Lib
 {
     public partial class editpassword : UserControl
     {

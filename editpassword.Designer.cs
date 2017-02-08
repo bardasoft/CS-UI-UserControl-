@@ -1,4 +1,4 @@
-﻿namespace JASH.UI_Lib
+﻿namespace SYWEB_V8_Workstation.UI_Lib
 {
     partial class editpassword
     {
@@ -36,21 +36,24 @@
             // 
             // txtpassword
             // 
-            this.txtpassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtpassword.Location = new System.Drawing.Point(3, 3);
+            this.txtpassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtpassword.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtpassword.Location = new System.Drawing.Point(5, 5);
+            this.txtpassword.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.PasswordChar = '*';
-            this.txtpassword.Size = new System.Drawing.Size(144, 22);
+            this.txtpassword.Size = new System.Drawing.Size(225, 29);
             this.txtpassword.TabIndex = 0;
             // 
             // viewpassword
             // 
             this.viewpassword.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.viewpassword.Image = ((System.Drawing.Image)(resources.GetObject("viewpassword.Image")));
-            this.viewpassword.Location = new System.Drawing.Point(129, 5);
+            this.viewpassword.Location = new System.Drawing.Point(240, 7);
+            this.viewpassword.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.viewpassword.Name = "viewpassword";
-            this.viewpassword.Size = new System.Drawing.Size(18, 18);
+            this.viewpassword.Size = new System.Drawing.Size(42, 24);
             this.viewpassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.viewpassword.TabIndex = 1;
             this.viewpassword.TabStop = false;
@@ -59,12 +62,14 @@
             // 
             // editpassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.viewpassword);
             this.Controls.Add(this.txtpassword);
+            this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "editpassword";
-            this.Size = new System.Drawing.Size(150, 31);
+            this.Size = new System.Drawing.Size(293, 41);
             ((System.ComponentModel.ISupportInitialize)(this.viewpassword)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
