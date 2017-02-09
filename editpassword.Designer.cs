@@ -1,4 +1,4 @@
-﻿namespace SYWEB_V8_Workstation.UI_Lib
+﻿namespace JASH
 {
     partial class editpassword
     {

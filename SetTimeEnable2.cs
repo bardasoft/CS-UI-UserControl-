@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace SYWEB_V8_Workstation.UI_Lib
+namespace JASH
 {
     public partial class SetTimeEnable2 : UserControl
     {

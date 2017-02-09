@@ -1,4 +1,4 @@
-﻿namespace SYWEB_V8_Workstation.UI_Lib
+﻿namespace JASH
 {
     partial class SetTimeEnable
     {
@@ -30,8 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.ckb_enable = new System.Windows.Forms.CheckBox();
-            this.txtMin = new SYWEB_V8_Workstation.JLNumEdit();
-            this.txtHrs = new SYWEB_V8_Workstation.JLNumEdit();
+            this.txtMin = new JASH.JLNumEdit();
+            this.txtHrs = new JASH.JLNumEdit();
             this.SuspendLayout();
             // 
             // label1
