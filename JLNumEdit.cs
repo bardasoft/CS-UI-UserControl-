@@ -68,7 +68,8 @@ namespace JASH
             m_TxtValue.ReadOnly = true;
             m_TxtValue.BorderStyle = BorderStyle.FixedSingle;
             m_TxtValue.Text = "" + m_intValue;
-            m_TxtValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center; ;
+            m_TxtValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            m_TxtValue.TextChanged += new System.EventHandler(txt_TextChanged);
             Controls.Add(m_TxtValue);
 
             m_butUp = new Button();
@@ -90,6 +91,18 @@ namespace JASH
             Controls.Add(m_butDown);
 
         }
+
+        public event EventHandler Value_Changed;//20170209 將內部事件轉傳
+        private void txt_TextChanged(object sender, EventArgs e)
+        {
+            //正規作法 把內部事件轉到表單事件 2017/01/13
+            if (Value_Changed != null)
+            {
+                Value_Changed(m_TxtValue, e);
+                return;
+            }
+        }
+
         private void Up_Click(object sender, EventArgs e)
         {
             m_intValue++;
