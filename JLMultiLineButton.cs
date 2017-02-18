@@ -36,18 +36,18 @@ namespace JASH
             imIcon = new System.Windows.Forms.PictureBox();
 
             //txtSub.Enabled = false;
-            txtSub.AutoSize = true;
+            txtSub.AutoSize = false;
             txtSub.Font = new System.Drawing.Font("微軟正黑體", (SysFont.Size - 5), System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             txtSub.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             txtSub.Location = new System.Drawing.Point(75, 41);
-            txtSub.Size = new System.Drawing.Size(46, 16);
+            txtSub.Size = new System.Drawing.Size(250 - 80, 20);
             txtSub.AutoEllipsis = true;
             txtSub.Text = "label2";
 
             //txtMain.Enabled = false;
-            txtMain.AutoSize = true;
+            txtMain.AutoSize = false;
             txtMain.Location = new System.Drawing.Point(74, 10);
-            txtMain.Size = new System.Drawing.Size(33, 12);
+            txtMain.Size = new System.Drawing.Size(250 - 80, 30);
             txtMain.AutoEllipsis = true;
             txtMain.Text = "label1";
 
@@ -93,17 +93,19 @@ namespace JASH
             imIcon = new System.Windows.Forms.PictureBox();
             
             //txtSub.Enabled = false;
-            txtSub.AutoSize = true;
+            txtSub.AutoSize = false;
             txtSub.Font = new System.Drawing.Font("微軟正黑體", (SysFont.Size-5), System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             txtSub.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             txtSub.Location = new System.Drawing.Point(75, 41);
-            txtSub.Size = new System.Drawing.Size(46, 16);
+            txtSub.Size = new System.Drawing.Size(250-80, 20);
+            txtSub.AutoEllipsis = true;
             txtSub.Text = "label2";
 
             //txtMain.Enabled = false;
-            txtMain.AutoSize = true;
+            txtMain.AutoSize = false;
             txtMain.Location = new System.Drawing.Point(74, 10);
-            txtMain.Size = new System.Drawing.Size(33, 12);
+            txtMain.Size = new System.Drawing.Size(250-80, 30);
+            txtSub.AutoEllipsis = true;
             txtMain.Text = "label1";
 
             imIcon.Enabled = false;
