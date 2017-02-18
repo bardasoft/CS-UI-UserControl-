@@ -1,4 +1,4 @@
-﻿namespace JASH.UI_Lib
+﻿namespace JASH
 {
     partial class Door12
     {
@@ -119,7 +119,7 @@
             // 
             // ckbDoor12_08
             // 
-            this.ckbDoor12_08.AutoSize = true;
+            this.ckbDoor12_08.AutoEllipsis = true;
             this.ckbDoor12_08.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_08.Name = "ckbDoor12_08";
             this.ckbDoor12_08.Size = new System.Drawing.Size(118, 24);
@@ -137,6 +137,7 @@
             // 
             // labDoor12_08
             // 
+            this.labDoor12_08.AutoEllipsis = true;
             this.labDoor12_08.Location = new System.Drawing.Point(6, 23);
             this.labDoor12_08.Name = "labDoor12_08";
             this.labDoor12_08.Size = new System.Drawing.Size(118, 20);
@@ -146,6 +147,7 @@
             // 
             // labDoor12_20
             // 
+            this.labDoor12_20.AutoEllipsis = true;
             this.labDoor12_20.Location = new System.Drawing.Point(6, 56);
             this.labDoor12_20.Name = "labDoor12_20";
             this.labDoor12_20.Size = new System.Drawing.Size(70, 20);
@@ -170,7 +172,7 @@
             // 
             // ckbDoor12_07
             // 
-            this.ckbDoor12_07.AutoSize = true;
+            this.ckbDoor12_07.AutoEllipsis = true;
             this.ckbDoor12_07.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_07.Name = "ckbDoor12_07";
             this.ckbDoor12_07.Size = new System.Drawing.Size(109, 24);
@@ -188,6 +190,7 @@
             // 
             // labDoor12_07
             // 
+            this.labDoor12_07.AutoEllipsis = true;
             this.labDoor12_07.Location = new System.Drawing.Point(6, 23);
             this.labDoor12_07.Name = "labDoor12_07";
             this.labDoor12_07.Size = new System.Drawing.Size(118, 20);
@@ -197,6 +200,7 @@
             // 
             // labDoor12_19
             // 
+            this.labDoor12_19.AutoEllipsis = true;
             this.labDoor12_19.Location = new System.Drawing.Point(6, 56);
             this.labDoor12_19.Name = "labDoor12_19";
             this.labDoor12_19.Size = new System.Drawing.Size(70, 20);
@@ -221,10 +225,10 @@
             // 
             // ckbDoor12_12
             // 
-            this.ckbDoor12_12.AutoSize = true;
+            this.ckbDoor12_12.AutoEllipsis = true;
             this.ckbDoor12_12.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_12.Name = "ckbDoor12_12";
-            this.ckbDoor12_12.Size = new System.Drawing.Size(118, 24);
+            this.ckbDoor12_12.Size = new System.Drawing.Size(147, 24);
             this.ckbDoor12_12.TabIndex = 42;
             this.ckbDoor12_12.Text = "checkBox14";
             this.ckbDoor12_12.UseVisualStyleBackColor = true;
@@ -239,6 +243,7 @@
             // 
             // labDoor12_12
             // 
+            this.labDoor12_12.AutoEllipsis = true;
             this.labDoor12_12.Location = new System.Drawing.Point(6, 23);
             this.labDoor12_12.Name = "labDoor12_12";
             this.labDoor12_12.Size = new System.Drawing.Size(118, 20);
@@ -248,6 +253,7 @@
             // 
             // labDoor12_24
             // 
+            this.labDoor12_24.AutoEllipsis = true;
             this.labDoor12_24.Location = new System.Drawing.Point(6, 56);
             this.labDoor12_24.Name = "labDoor12_24";
             this.labDoor12_24.Size = new System.Drawing.Size(70, 20);
@@ -272,10 +278,10 @@
             // 
             // ckbDoor12_10
             // 
-            this.ckbDoor12_10.AutoSize = true;
+            this.ckbDoor12_10.AutoEllipsis = true;
             this.ckbDoor12_10.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_10.Name = "ckbDoor12_10";
-            this.ckbDoor12_10.Size = new System.Drawing.Size(118, 24);
+            this.ckbDoor12_10.Size = new System.Drawing.Size(147, 24);
             this.ckbDoor12_10.TabIndex = 42;
             this.ckbDoor12_10.Text = "checkBox13";
             this.ckbDoor12_10.UseVisualStyleBackColor = true;
@@ -290,6 +296,7 @@
             // 
             // labDoor12_10
             // 
+            this.labDoor12_10.AutoEllipsis = true;
             this.labDoor12_10.Location = new System.Drawing.Point(6, 23);
             this.labDoor12_10.Name = "labDoor12_10";
             this.labDoor12_10.Size = new System.Drawing.Size(118, 20);
@@ -299,6 +306,7 @@
             // 
             // labDoor12_22
             // 
+            this.labDoor12_22.AutoEllipsis = true;
             this.labDoor12_22.Location = new System.Drawing.Point(6, 56);
             this.labDoor12_22.Name = "labDoor12_22";
             this.labDoor12_22.Size = new System.Drawing.Size(70, 20);
@@ -323,7 +331,7 @@
             // 
             // ckbDoor12_11
             // 
-            this.ckbDoor12_11.AutoSize = true;
+            this.ckbDoor12_11.AutoEllipsis = true;
             this.ckbDoor12_11.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_11.Name = "ckbDoor12_11";
             this.ckbDoor12_11.Size = new System.Drawing.Size(118, 24);
@@ -341,6 +349,7 @@
             // 
             // labDoor12_11
             // 
+            this.labDoor12_11.AutoEllipsis = true;
             this.labDoor12_11.Location = new System.Drawing.Point(6, 22);
             this.labDoor12_11.Name = "labDoor12_11";
             this.labDoor12_11.Size = new System.Drawing.Size(118, 20);
@@ -350,6 +359,7 @@
             // 
             // labDoor12_23
             // 
+            this.labDoor12_23.AutoEllipsis = true;
             this.labDoor12_23.Location = new System.Drawing.Point(6, 55);
             this.labDoor12_23.Name = "labDoor12_23";
             this.labDoor12_23.Size = new System.Drawing.Size(70, 20);
@@ -374,7 +384,7 @@
             // 
             // ckbDoor12_09
             // 
-            this.ckbDoor12_09.AutoSize = true;
+            this.ckbDoor12_09.AutoEllipsis = true;
             this.ckbDoor12_09.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_09.Name = "ckbDoor12_09";
             this.ckbDoor12_09.Size = new System.Drawing.Size(118, 24);
@@ -392,6 +402,7 @@
             // 
             // labDoor12_09
             // 
+            this.labDoor12_09.AutoEllipsis = true;
             this.labDoor12_09.Location = new System.Drawing.Point(6, 23);
             this.labDoor12_09.Name = "labDoor12_09";
             this.labDoor12_09.Size = new System.Drawing.Size(118, 20);
@@ -401,6 +412,7 @@
             // 
             // labDoor12_21
             // 
+            this.labDoor12_21.AutoEllipsis = true;
             this.labDoor12_21.Location = new System.Drawing.Point(6, 56);
             this.labDoor12_21.Name = "labDoor12_21";
             this.labDoor12_21.Size = new System.Drawing.Size(70, 20);
@@ -425,7 +437,7 @@
             // 
             // ckbDoor12_06
             // 
-            this.ckbDoor12_06.AutoSize = true;
+            this.ckbDoor12_06.AutoEllipsis = true;
             this.ckbDoor12_06.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_06.Name = "ckbDoor12_06";
             this.ckbDoor12_06.Size = new System.Drawing.Size(109, 24);
@@ -443,6 +455,7 @@
             // 
             // labDoor12_06
             // 
+            this.labDoor12_06.AutoEllipsis = true;
             this.labDoor12_06.Location = new System.Drawing.Point(6, 23);
             this.labDoor12_06.Name = "labDoor12_06";
             this.labDoor12_06.Size = new System.Drawing.Size(118, 20);
@@ -476,7 +489,7 @@
             // 
             // ckbDoor12_05
             // 
-            this.ckbDoor12_05.AutoSize = true;
+            this.ckbDoor12_05.AutoEllipsis = true;
             this.ckbDoor12_05.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_05.Name = "ckbDoor12_05";
             this.ckbDoor12_05.Size = new System.Drawing.Size(109, 24);
@@ -494,6 +507,7 @@
             // 
             // labDoor12_05
             // 
+            this.labDoor12_05.AutoEllipsis = true;
             this.labDoor12_05.Location = new System.Drawing.Point(6, 23);
             this.labDoor12_05.Name = "labDoor12_05";
             this.labDoor12_05.Size = new System.Drawing.Size(118, 20);
@@ -527,7 +541,7 @@
             // 
             // ckbDoor12_04
             // 
-            this.ckbDoor12_04.AutoSize = true;
+            this.ckbDoor12_04.AutoEllipsis = true;
             this.ckbDoor12_04.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_04.Name = "ckbDoor12_04";
             this.ckbDoor12_04.Size = new System.Drawing.Size(109, 24);
@@ -545,6 +559,7 @@
             // 
             // labDoor12_04
             // 
+            this.labDoor12_04.AutoEllipsis = true;
             this.labDoor12_04.Location = new System.Drawing.Point(6, 23);
             this.labDoor12_04.Name = "labDoor12_04";
             this.labDoor12_04.Size = new System.Drawing.Size(118, 20);
@@ -554,6 +569,7 @@
             // 
             // labDoor12_16
             // 
+            this.labDoor12_16.AutoEllipsis = true;
             this.labDoor12_16.Location = new System.Drawing.Point(6, 56);
             this.labDoor12_16.Name = "labDoor12_16";
             this.labDoor12_16.Size = new System.Drawing.Size(70, 20);
@@ -578,7 +594,7 @@
             // 
             // ckbDoor12_03
             // 
-            this.ckbDoor12_03.AutoSize = true;
+            this.ckbDoor12_03.AutoEllipsis = true;
             this.ckbDoor12_03.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_03.Name = "ckbDoor12_03";
             this.ckbDoor12_03.Size = new System.Drawing.Size(109, 24);
@@ -596,6 +612,7 @@
             // 
             // labDoor12_03
             // 
+            this.labDoor12_03.AutoEllipsis = true;
             this.labDoor12_03.Location = new System.Drawing.Point(6, 23);
             this.labDoor12_03.Name = "labDoor12_03";
             this.labDoor12_03.Size = new System.Drawing.Size(118, 20);
@@ -629,7 +646,7 @@
             // 
             // ckbDoor12_02
             // 
-            this.ckbDoor12_02.AutoSize = true;
+            this.ckbDoor12_02.AutoEllipsis = true;
             this.ckbDoor12_02.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_02.Name = "ckbDoor12_02";
             this.ckbDoor12_02.Size = new System.Drawing.Size(109, 24);
@@ -647,6 +664,7 @@
             // 
             // labDoor12_02
             // 
+            this.labDoor12_02.AutoEllipsis = true;
             this.labDoor12_02.Location = new System.Drawing.Point(6, 23);
             this.labDoor12_02.Name = "labDoor12_02";
             this.labDoor12_02.Size = new System.Drawing.Size(118, 20);
@@ -680,7 +698,7 @@
             // 
             // ckbDoor12_01
             // 
-            this.ckbDoor12_01.AutoSize = true;
+            this.ckbDoor12_01.AutoEllipsis = true;
             this.ckbDoor12_01.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_01.Name = "ckbDoor12_01";
             this.ckbDoor12_01.Size = new System.Drawing.Size(109, 24);
@@ -707,6 +725,7 @@
             // 
             // labDoor12_01
             // 
+            this.labDoor12_01.AutoEllipsis = true;
             this.labDoor12_01.Location = new System.Drawing.Point(6, 23);
             this.labDoor12_01.Name = "labDoor12_01";
             this.labDoor12_01.Size = new System.Drawing.Size(118, 20);

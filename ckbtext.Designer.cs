@@ -46,7 +46,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(28, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(73, 29);
+            this.textBox1.Size = new System.Drawing.Size(65, 29);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -57,9 +57,9 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.checkBox1);
             this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "ckbtext";
-            this.Size = new System.Drawing.Size(104, 33);
+            this.Size = new System.Drawing.Size(95, 33);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -41,10 +41,9 @@
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(11, 5);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(109, 24);
+            this.checkBox1.Size = new System.Drawing.Size(104, 24);
             this.checkBox1.TabIndex = 8;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -54,10 +53,10 @@
             // 
             this.ckbtext8.blnUsed = false;
             this.ckbtext8.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ckbtext8.Location = new System.Drawing.Point(6, 259);
+            this.ckbtext8.Location = new System.Drawing.Point(5, 259);
             this.ckbtext8.Margin = new System.Windows.Forms.Padding(5);
             this.ckbtext8.Name = "ckbtext8";
-            this.ckbtext8.Size = new System.Drawing.Size(104, 33);
+            this.ckbtext8.Size = new System.Drawing.Size(95, 33);
             this.ckbtext8.StrText = "";
             this.ckbtext8.TabIndex = 7;
             this.ckbtext8.ck_Changed += new System.EventHandler(this.ckbtexts_ck_Changed);
@@ -69,7 +68,7 @@
             this.ckbtext7.Location = new System.Drawing.Point(5, 227);
             this.ckbtext7.Margin = new System.Windows.Forms.Padding(5);
             this.ckbtext7.Name = "ckbtext7";
-            this.ckbtext7.Size = new System.Drawing.Size(104, 33);
+            this.ckbtext7.Size = new System.Drawing.Size(95, 33);
             this.ckbtext7.StrText = "";
             this.ckbtext7.TabIndex = 6;
             this.ckbtext7.ck_Changed += new System.EventHandler(this.ckbtexts_ck_Changed);
@@ -78,10 +77,10 @@
             // 
             this.ckbtext6.blnUsed = false;
             this.ckbtext6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ckbtext6.Location = new System.Drawing.Point(6, 194);
+            this.ckbtext6.Location = new System.Drawing.Point(5, 194);
             this.ckbtext6.Margin = new System.Windows.Forms.Padding(5);
             this.ckbtext6.Name = "ckbtext6";
-            this.ckbtext6.Size = new System.Drawing.Size(104, 33);
+            this.ckbtext6.Size = new System.Drawing.Size(95, 33);
             this.ckbtext6.StrText = "";
             this.ckbtext6.TabIndex = 5;
             this.ckbtext6.ck_Changed += new System.EventHandler(this.ckbtexts_ck_Changed);
@@ -93,7 +92,7 @@
             this.ckbtext5.Location = new System.Drawing.Point(5, 162);
             this.ckbtext5.Margin = new System.Windows.Forms.Padding(5);
             this.ckbtext5.Name = "ckbtext5";
-            this.ckbtext5.Size = new System.Drawing.Size(104, 33);
+            this.ckbtext5.Size = new System.Drawing.Size(95, 33);
             this.ckbtext5.StrText = "";
             this.ckbtext5.TabIndex = 4;
             this.ckbtext5.ck_Changed += new System.EventHandler(this.ckbtexts_ck_Changed);
@@ -102,10 +101,10 @@
             // 
             this.ckbtext4.blnUsed = false;
             this.ckbtext4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ckbtext4.Location = new System.Drawing.Point(6, 130);
+            this.ckbtext4.Location = new System.Drawing.Point(5, 130);
             this.ckbtext4.Margin = new System.Windows.Forms.Padding(5);
             this.ckbtext4.Name = "ckbtext4";
-            this.ckbtext4.Size = new System.Drawing.Size(104, 33);
+            this.ckbtext4.Size = new System.Drawing.Size(95, 33);
             this.ckbtext4.StrText = "";
             this.ckbtext4.TabIndex = 3;
             this.ckbtext4.ck_Changed += new System.EventHandler(this.ckbtexts_ck_Changed);
@@ -117,7 +116,7 @@
             this.ckbtext3.Location = new System.Drawing.Point(5, 98);
             this.ckbtext3.Margin = new System.Windows.Forms.Padding(5);
             this.ckbtext3.Name = "ckbtext3";
-            this.ckbtext3.Size = new System.Drawing.Size(104, 33);
+            this.ckbtext3.Size = new System.Drawing.Size(95, 33);
             this.ckbtext3.StrText = "";
             this.ckbtext3.TabIndex = 2;
             this.ckbtext3.ck_Changed += new System.EventHandler(this.ckbtexts_ck_Changed);
@@ -126,10 +125,10 @@
             // 
             this.ckbtext2.blnUsed = false;
             this.ckbtext2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ckbtext2.Location = new System.Drawing.Point(6, 65);
+            this.ckbtext2.Location = new System.Drawing.Point(5, 65);
             this.ckbtext2.Margin = new System.Windows.Forms.Padding(5);
             this.ckbtext2.Name = "ckbtext2";
-            this.ckbtext2.Size = new System.Drawing.Size(104, 33);
+            this.ckbtext2.Size = new System.Drawing.Size(95, 33);
             this.ckbtext2.StrText = "";
             this.ckbtext2.TabIndex = 1;
             this.ckbtext2.ck_Changed += new System.EventHandler(this.ckbtexts_ck_Changed);
@@ -141,7 +140,7 @@
             this.ckbtext1.Location = new System.Drawing.Point(5, 33);
             this.ckbtext1.Margin = new System.Windows.Forms.Padding(5);
             this.ckbtext1.Name = "ckbtext1";
-            this.ckbtext1.Size = new System.Drawing.Size(104, 33);
+            this.ckbtext1.Size = new System.Drawing.Size(95, 33);
             this.ckbtext1.StrText = "";
             this.ckbtext1.TabIndex = 0;
             this.ckbtext1.ck_Changed += new System.EventHandler(this.ckbtexts_ck_Changed);
@@ -162,9 +161,8 @@
             this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Grp_ckbtext";
-            this.Size = new System.Drawing.Size(115, 294);
+            this.Size = new System.Drawing.Size(105, 294);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

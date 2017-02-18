@@ -40,10 +40,10 @@
             // 
             // ckb_enable
             // 
-            this.ckb_enable.AutoSize = true;
+            this.ckb_enable.AutoEllipsis = true;
             this.ckb_enable.Location = new System.Drawing.Point(7, 3);
             this.ckb_enable.Name = "ckb_enable";
-            this.ckb_enable.Size = new System.Drawing.Size(109, 24);
+            this.ckb_enable.Size = new System.Drawing.Size(283, 24);
             this.ckb_enable.TabIndex = 7;
             this.ckb_enable.Text = "checkBox1";
             this.ckb_enable.UseVisualStyleBackColor = true;

@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Collections;
 
-namespace JASH.UI_Lib
+namespace JASH
 {
     public partial class Door12 : UserControl
     {
