@@ -62,7 +62,7 @@ namespace JASH
             Controls.Add(this.txtMain);
             Controls.Add(this.imIcon);
             Radius = 35;
-            RoundeStyle = JASH.RoundPanel.RoundStyle.All;
+            RoundeStyle = SYWEB_V8_Workstation.RoundPanel.RoundStyle.All;
             Size = new System.Drawing.Size(250, 70);
 
             //事件回應區
@@ -119,7 +119,7 @@ namespace JASH
             Controls.Add(this.txtMain);
             Controls.Add(this.imIcon);
             Radius = 35;
-            RoundeStyle = JASH.RoundPanel.RoundStyle.All;
+            RoundeStyle = SYWEB_V8_Workstation.RoundPanel.RoundStyle.All;
             Size = new System.Drawing.Size(250, 70);
 
             //事件回應區

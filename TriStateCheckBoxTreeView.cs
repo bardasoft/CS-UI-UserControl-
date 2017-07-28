@@ -22,10 +22,10 @@ namespace JASH
 
         // ~~~ fields(member) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-        ImageList _ilStateImages;//狀態圖
-        bool _bUseTriState;//紀錄是否使用三種狀態模式
-        bool _bCheckBoxesVisible;
-        bool _bPreventCheckEvent;
+        public ImageList _ilStateImages;//狀態圖
+        public bool _bUseTriState;//紀錄是否使用三種狀態模式
+        public bool _bCheckBoxesVisible;
+        public bool _bPreventCheckEvent;
 
         // ~~~ constructor(建構子) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -156,16 +156,16 @@ namespace JASH
 
             foreach (TreeNode tnCurrent in e.Node.Nodes)					// set tree state image
                 if (tnCurrent.StateImageIndex == -1)						// to each child node...
-                    tnCurrent.StateImageIndex = tnCurrent.Checked ? 1 : 0;
+                    tnCurrent.StateImageIndex = tnCurrent.Checked ? 1 : 0;   
         }
 
         protected override void OnAfterCheck(TreeViewEventArgs e)//選取事件
         {
             base.OnAfterCheck(e);
-
+            
             if (_bPreventCheckEvent)
                 return;
-
+            
             OnNodeMouseClick(new TreeNodeMouseClickEventArgs(e.Node, MouseButtons.None, 0, 0, 0));
         }
 

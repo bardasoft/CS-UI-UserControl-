@@ -52,14 +52,14 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(306, 258);
+            this.textBox3.Location = new System.Drawing.Point(105, 258);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(127, 29);
             this.textBox3.TabIndex = 21;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(105, 258);
+            this.textBox4.Location = new System.Drawing.Point(306, 258);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(127, 29);
             this.textBox4.TabIndex = 20;
@@ -186,7 +186,7 @@
             this.jlNumEdit1.MaxValue = 60;
             this.jlNumEdit1.MinValue = 0;
             this.jlNumEdit1.Name = "jlNumEdit1";
-            this.jlNumEdit1.Size = new System.Drawing.Size(50, 26);
+            this.jlNumEdit1.Size = new System.Drawing.Size(37, 26);
             this.jlNumEdit1.TabIndex = 25;
             this.jlNumEdit1.Value = 0;
             // 
@@ -239,7 +239,7 @@
             this.jlNumEdit2.MaxValue = 60;
             this.jlNumEdit2.MinValue = 0;
             this.jlNumEdit2.Name = "jlNumEdit2";
-            this.jlNumEdit2.Size = new System.Drawing.Size(50, 26);
+            this.jlNumEdit2.Size = new System.Drawing.Size(37, 26);
             this.jlNumEdit2.TabIndex = 30;
             this.jlNumEdit2.Value = 0;
             // 
@@ -278,10 +278,6 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
@@ -292,12 +288,16 @@
         private LineX lineX1;
         private LineX lineX2;
         private System.Windows.Forms.Label label7;
-        private JLNumEdit jlNumEdit1;
         private LineY lineY1;
         private LineY lineY2;
         private LineY lineY3;
         private System.Windows.Forms.Label label8;
-        private JLNumEdit jlNumEdit2;
+        public System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.TextBox textBox4;
+        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox textBox1;
+        public JLNumEdit jlNumEdit1;
+        public JLNumEdit jlNumEdit2;
 
     }
 }

@@ -59,7 +59,7 @@
             this.jlNumEdit2.MaxValue = 60;
             this.jlNumEdit2.MinValue = 0;
             this.jlNumEdit2.Name = "jlNumEdit2";
-            this.jlNumEdit2.Size = new System.Drawing.Size(50, 26);
+            this.jlNumEdit2.Size = new System.Drawing.Size(37, 26);
             this.jlNumEdit2.TabIndex = 50;
             this.jlNumEdit2.Value = 0;
             // 
@@ -112,7 +112,7 @@
             this.jlNumEdit1.MaxValue = 60;
             this.jlNumEdit1.MinValue = 0;
             this.jlNumEdit1.Name = "jlNumEdit1";
-            this.jlNumEdit1.Size = new System.Drawing.Size(50, 26);
+            this.jlNumEdit1.Size = new System.Drawing.Size(37, 26);
             this.jlNumEdit1.TabIndex = 45;
             this.jlNumEdit1.Value = 0;
             // 
@@ -150,14 +150,14 @@
             // textBox3
             // 
             this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(581, 180);
+            this.textBox3.Location = new System.Drawing.Point(428, 180);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(127, 29);
             this.textBox3.TabIndex = 41;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(428, 180);
+            this.textBox4.Location = new System.Drawing.Point(581, 180);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(127, 29);
             this.textBox4.TabIndex = 40;
@@ -264,9 +264,9 @@
             this.lineX4.blnDash = true;
             this.lineX4.LineColor = System.Drawing.SystemColors.ControlText;
             this.lineX4.LineWidth = 10;
-            this.lineX4.Location = new System.Drawing.Point(326, 121);
+            this.lineX4.Location = new System.Drawing.Point(305, 121);
             this.lineX4.Name = "lineX4";
-            this.lineX4.Size = new System.Drawing.Size(68, 10);
+            this.lineX4.Size = new System.Drawing.Size(89, 10);
             this.lineX4.TabIndex = 52;
             // 
             // AB4LEVEL3
@@ -306,19 +306,13 @@
 
         #endregion
 
-        private JLNumEdit jlNumEdit2;
         private System.Windows.Forms.Label label8;
         private LineY lineY3;
         private LineY lineY2;
         private LineY lineY1;
-        private JLNumEdit jlNumEdit1;
         private System.Windows.Forms.Label label7;
         private LineX lineX2;
         private LineX lineX1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
@@ -328,6 +322,12 @@
         public System.Windows.Forms.Label label1;
         private LineX lineX3;
         private LineX lineX4;
+        public JLNumEdit jlNumEdit2;
+        public JLNumEdit jlNumEdit1;
+        public System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.TextBox textBox4;
+        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox textBox1;
 
     }
 }

@@ -216,15 +216,21 @@ namespace JASH
         protected void removePaintFromNodes()
         {
             if (m_coll.Count == 0) return;
-
-            TreeNode n0 = (TreeNode)m_coll[0];
-            Color back = n0.TreeView.BackColor;
-            Color fore = n0.TreeView.ForeColor;
-
-            foreach (TreeNode n in m_coll)
+            try
             {
-                n.BackColor = back;
-                n.ForeColor = fore;
+                TreeNode n0 = (TreeNode)m_coll[0];
+                Color back = n0.TreeView.BackColor;
+                Color fore = n0.TreeView.ForeColor;
+
+                foreach (TreeNode n in m_coll)
+                {
+                    n.BackColor = back;
+                    n.ForeColor = fore;
+                }
+            }
+            catch
+            {
+
             }
 
         }

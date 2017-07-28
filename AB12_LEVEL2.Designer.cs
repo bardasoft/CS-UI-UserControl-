@@ -311,54 +311,54 @@
             // label15
             // 
             this.label15.AutoEllipsis = true;
-            this.label15.Location = new System.Drawing.Point(17, 190);
+            this.label15.Location = new System.Drawing.Point(5, 190);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(84, 20);
+            this.label15.Size = new System.Drawing.Size(96, 20);
             this.label15.TabIndex = 59;
             this.label15.Text = "label15";
             // 
             // label16
             // 
             this.label16.AutoEllipsis = true;
-            this.label16.Location = new System.Drawing.Point(17, 255);
+            this.label16.Location = new System.Drawing.Point(9, 255);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(84, 20);
+            this.label16.Size = new System.Drawing.Size(92, 20);
             this.label16.TabIndex = 60;
             this.label16.Text = "label16";
             // 
             // label17
             // 
             this.label17.AutoEllipsis = true;
-            this.label17.Location = new System.Drawing.Point(17, 320);
+            this.label17.Location = new System.Drawing.Point(9, 320);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(84, 20);
+            this.label17.Size = new System.Drawing.Size(92, 20);
             this.label17.TabIndex = 61;
             this.label17.Text = "label17";
             // 
             // label18
             // 
             this.label18.AutoEllipsis = true;
-            this.label18.Location = new System.Drawing.Point(492, 190);
+            this.label18.Location = new System.Drawing.Point(480, 187);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(84, 20);
+            this.label18.Size = new System.Drawing.Size(96, 20);
             this.label18.TabIndex = 62;
             this.label18.Text = "label18";
             // 
             // label19
             // 
             this.label19.AutoEllipsis = true;
-            this.label19.Location = new System.Drawing.Point(492, 255);
+            this.label19.Location = new System.Drawing.Point(480, 255);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(84, 20);
+            this.label19.Size = new System.Drawing.Size(96, 20);
             this.label19.TabIndex = 63;
             this.label19.Text = "label19";
             // 
             // label20
             // 
             this.label20.AutoEllipsis = true;
-            this.label20.Location = new System.Drawing.Point(492, 320);
+            this.label20.Location = new System.Drawing.Point(480, 320);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(84, 20);
+            this.label20.Size = new System.Drawing.Size(96, 20);
             this.label20.TabIndex = 64;
             this.label20.Text = "label20";
             // 
@@ -520,9 +520,9 @@
             this.lineX9.blnDash = true;
             this.lineX9.LineColor = System.Drawing.SystemColors.ControlText;
             this.lineX9.LineWidth = 10;
-            this.lineX9.Location = new System.Drawing.Point(485, 123);
+            this.lineX9.Location = new System.Drawing.Point(470, 123);
             this.lineX9.Name = "lineX9";
-            this.lineX9.Size = new System.Drawing.Size(258, 10);
+            this.lineX9.Size = new System.Drawing.Size(273, 10);
             this.lineX9.TabIndex = 80;
             // 
             // jlNumEdit1
@@ -532,7 +532,7 @@
             this.jlNumEdit1.MaxValue = 60;
             this.jlNumEdit1.MinValue = 0;
             this.jlNumEdit1.Name = "jlNumEdit1";
-            this.jlNumEdit1.Size = new System.Drawing.Size(50, 26);
+            this.jlNumEdit1.Size = new System.Drawing.Size(37, 26);
             this.jlNumEdit1.TabIndex = 81;
             this.jlNumEdit1.Value = 0;
             // 
@@ -554,7 +554,7 @@
             this.jlNumEdit2.MaxValue = 60;
             this.jlNumEdit2.MinValue = 0;
             this.jlNumEdit2.Name = "jlNumEdit2";
-            this.jlNumEdit2.Size = new System.Drawing.Size(50, 26);
+            this.jlNumEdit2.Size = new System.Drawing.Size(37, 26);
             this.jlNumEdit2.TabIndex = 84;
             this.jlNumEdit2.Value = 0;
             // 
@@ -634,29 +634,17 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
         private LineX lineX1;
         public System.Windows.Forms.Label label2;
@@ -682,9 +670,21 @@
         private LineY lineY6;
         private LineX lineX8;
         private LineX lineX9;
-        private JLNumEdit jlNumEdit1;
         private LineY lineY7;
-        private JLNumEdit jlNumEdit2;
         private System.Windows.Forms.Label label22;
+        public System.Windows.Forms.TextBox textBox12;
+        public System.Windows.Forms.TextBox textBox11;
+        public System.Windows.Forms.TextBox textBox10;
+        public System.Windows.Forms.TextBox textBox9;
+        public System.Windows.Forms.TextBox textBox8;
+        public System.Windows.Forms.TextBox textBox7;
+        public System.Windows.Forms.TextBox textBox6;
+        public System.Windows.Forms.TextBox textBox5;
+        public System.Windows.Forms.TextBox textBox4;
+        public System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox textBox1;
+        public JLNumEdit jlNumEdit1;
+        public JLNumEdit jlNumEdit2;
     }
 }

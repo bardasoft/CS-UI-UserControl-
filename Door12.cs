@@ -19,6 +19,7 @@ namespace JASH
         {
             for (int i = 0; i < ALgpb.Count; i++)
             {
+                ((CheckBox)ALckb[i]).Checked = false;
                 ((TextBox)ALtxt[i]).Enabled = false;
                 ((TextBox)ALtxt[i]).Text = "";
                 ((BorderGroupBox)ALgpb[i]).Visible = false;
@@ -81,6 +82,21 @@ namespace JASH
             ckbDoor12_10.Text = (String)al[25];
             ckbDoor12_11.Text = (String)al[25];
             ckbDoor12_12.Text = (String)al[25];
+
+            //--
+            ckbDoor12_01.Checked= false;
+            ckbDoor12_02.Checked = false;
+            ckbDoor12_03.Checked = false;
+            ckbDoor12_04.Checked = false;
+            ckbDoor12_05.Checked = false;
+            ckbDoor12_06.Checked = false;
+            ckbDoor12_07.Checked = false;
+            ckbDoor12_08.Checked = false;
+            ckbDoor12_09.Checked = false;
+            ckbDoor12_10.Checked = false;
+            ckbDoor12_11.Checked = false;
+            ckbDoor12_12.Checked = false;
+            //--
 
             //--
             txtDoor12_01.Enabled = false;

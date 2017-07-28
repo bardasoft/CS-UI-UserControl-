@@ -19,13 +19,21 @@ namespace JASH
         public String StrValue
         {
             get { return (m_StrValue = String.Format("{0:00}:{1:00}", Convert.ToInt16(txtHrs.m_TxtValue.Text), Convert.ToInt16(txtMin.m_TxtValue.Text))); }
-            //set { m_StrValue = value; }
+            set { 
+                    m_StrValue = value;
+                    string[] strs = m_StrValue.Split(':');
+                    txtHrs.Value=Convert.ToInt32(strs[0], 10);
+                    txtMin.Value = Convert.ToInt32(strs[1], 10);
+                }
         }
         private bool m_blnEnable = false;
         public bool blnEnable
         {
             get { return m_blnEnable; }
-            //set { m_blnEnable = value; }
+            set { 
+                    m_blnEnable = value;
+                    ckb_enable.Checked = m_blnEnable;
+                }
         }
         public void SetTxt(String StrTxt)
         {

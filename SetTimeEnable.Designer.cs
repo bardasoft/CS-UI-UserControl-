@@ -32,12 +32,13 @@
             this.ckb_enable = new System.Windows.Forms.CheckBox();
             this.txtMin = new JASH.JLNumEdit();
             this.txtHrs = new JASH.JLNumEdit();
+            this.ckb_001 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(65, 40);
+            this.label1.Location = new System.Drawing.Point(49, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(13, 20);
             this.label1.TabIndex = 0;
@@ -48,7 +49,7 @@
             this.ckb_enable.AutoEllipsis = true;
             this.ckb_enable.Location = new System.Drawing.Point(10, 8);
             this.ckb_enable.Name = "ckb_enable";
-            this.ckb_enable.Size = new System.Drawing.Size(122, 24);
+            this.ckb_enable.Size = new System.Drawing.Size(151, 24);
             this.ckb_enable.TabIndex = 3;
             this.ckb_enable.Text = "checkBox1";
             this.ckb_enable.UseVisualStyleBackColor = true;
@@ -56,12 +57,12 @@
             // 
             // txtMin
             // 
-            this.txtMin.Location = new System.Drawing.Point(82, 38);
+            this.txtMin.Location = new System.Drawing.Point(64, 38);
             this.txtMin.LoopValue = true;
             this.txtMin.MaxValue = 59;
             this.txtMin.MinValue = 0;
             this.txtMin.Name = "txtMin";
-            this.txtMin.Size = new System.Drawing.Size(50, 26);
+            this.txtMin.Size = new System.Drawing.Size(37, 26);
             this.txtMin.TabIndex = 2;
             this.txtMin.Value = 0;
             // 
@@ -72,14 +73,24 @@
             this.txtHrs.MaxValue = 23;
             this.txtHrs.MinValue = 0;
             this.txtHrs.Name = "txtHrs";
-            this.txtHrs.Size = new System.Drawing.Size(50, 26);
+            this.txtHrs.Size = new System.Drawing.Size(37, 26);
             this.txtHrs.TabIndex = 1;
             this.txtHrs.Value = 0;
+            // 
+            // ckb_001
+            // 
+            this.ckb_001.AutoEllipsis = true;
+            this.ckb_001.Location = new System.Drawing.Point(107, 40);
+            this.ckb_001.Name = "ckb_001";
+            this.ckb_001.Size = new System.Drawing.Size(18, 26);
+            this.ckb_001.TabIndex = 4;
+            this.ckb_001.UseVisualStyleBackColor = true;
             // 
             // SetTimeEnable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ckb_001);
             this.Controls.Add(this.ckb_enable);
             this.Controls.Add(this.txtMin);
             this.Controls.Add(this.txtHrs);
@@ -87,7 +98,7 @@
             this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "SetTimeEnable";
-            this.Size = new System.Drawing.Size(147, 72);
+            this.Size = new System.Drawing.Size(171, 72);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -99,5 +110,6 @@
         private JLNumEdit txtHrs;
         private JLNumEdit txtMin;
         private System.Windows.Forms.CheckBox ckb_enable;
+        private System.Windows.Forms.CheckBox ckb_001;
     }
 }
