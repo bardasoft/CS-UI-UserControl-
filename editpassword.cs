@@ -32,5 +32,31 @@ namespace JASH
         {
             txtpassword.PasswordChar = '*';
         }
+
+        private void txtpassword_KeyPress(object sender, KeyPressEventArgs e)//限制密碼輸入
+        {
+            if (e.KeyChar == 8)//刪除鍵要直接允許
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                if (txtpassword.Text.Length < 16)//長度限制在16
+                {
+                    if ((e.KeyChar >= 'a' && e.KeyChar <= 'f') || (e.KeyChar >= 'A' && e.KeyChar <= 'F') || (e.KeyChar >= '0' && e.KeyChar <= '9'))//限制0~9和A~F
+                    {
+                        e.Handled = false;
+                    }
+                    else
+                    {
+                        e.Handled = true;
+                    }
+                }
+                else
+                {
+                    e.Handled = true;
+                }
+            }
+        }
     }
 }

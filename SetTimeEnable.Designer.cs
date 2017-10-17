@@ -84,6 +84,7 @@
             this.ckb_001.Name = "ckb_001";
             this.ckb_001.Size = new System.Drawing.Size(18, 26);
             this.ckb_001.TabIndex = 4;
+            this.ckb_001.Text = "reset mode";
             this.ckb_001.UseVisualStyleBackColor = true;
             // 
             // SetTimeEnable
@@ -110,6 +111,6 @@
         private JLNumEdit txtHrs;
         private JLNumEdit txtMin;
         private System.Windows.Forms.CheckBox ckb_enable;
-        private System.Windows.Forms.CheckBox ckb_001;
+        public System.Windows.Forms.CheckBox ckb_001;
     }
 }

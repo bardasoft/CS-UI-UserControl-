@@ -62,7 +62,7 @@ namespace JASH
             Controls.Add(this.txtMain);
             Controls.Add(this.imIcon);
             Radius = 35;
-            RoundeStyle = SYWEB_V8_Workstation.RoundPanel.RoundStyle.All;
+            RoundeStyle = JASH.RoundPanel.RoundStyle.All;
             Size = new System.Drawing.Size(250, 70);
 
             //事件回應區
@@ -83,7 +83,7 @@ namespace JASH
         public JLMultiLineButton(Form pf):base()//建構子建立外框和元件加載與擺放
         {
             pForm = pf;
-            Font SysFont = ((Form1)pForm).Font;//
+            Font SysFont = ((Main_Frm)pForm).Font;//
             this.m_intIndex = 0;
 
 
@@ -119,7 +119,7 @@ namespace JASH
             Controls.Add(this.txtMain);
             Controls.Add(this.imIcon);
             Radius = 35;
-            RoundeStyle = SYWEB_V8_Workstation.RoundPanel.RoundStyle.All;
+            RoundeStyle = JASH.RoundPanel.RoundStyle.All;
             Size = new System.Drawing.Size(250, 70);
 
             //事件回應區
@@ -213,7 +213,7 @@ namespace JASH
                  */
             }
             //--
-            ((Form1)pForm).JLMultiLineButton(m_intIndex);//非正規作法，若使用正規做法要把這行註解
+            ((Main_Frm)pForm).JLMultiLineButton(m_intIndex);//非正規作法，若使用正規做法要把這行註解
         }
     }
 }

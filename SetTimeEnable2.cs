@@ -19,7 +19,13 @@ namespace JASH
         public String StrValue1
         {
             get { return (m_StrValue1 = String.Format("{0:00}:{1:00}", Convert.ToInt16(txtHrs1.m_TxtValue.Text), Convert.ToInt16(txtMin1.m_TxtValue.Text))); }
-            //set { m_StrValue = value; }
+            set
+            {
+                string[] values = value.Split(':');
+                txtHrs1.Value = Convert.ToInt32(values[0]);
+                txtMin1.Value = Convert.ToInt32(values[1]);
+                m_StrValue1 = String.Format("{0:00}:{1:00}", Convert.ToInt16(txtHrs1.m_TxtValue.Text), Convert.ToInt16(txtMin1.m_TxtValue.Text));
+            }
         }
         private String m_StrValue2;
         [Browsable(true), Category("自訂屬性"), Description("元件設定的時間值1")]
@@ -29,14 +35,24 @@ namespace JASH
         public String StrValue2
         {
             get { return (m_StrValue2 = String.Format("{0:00}:{1:00}", Convert.ToInt16(txtHrs2.m_TxtValue.Text), Convert.ToInt16(txtMin2.m_TxtValue.Text))); }
-            //set { m_StrValue = value; }
+            set
+            {
+                string[] values = value.Split(':');
+                txtHrs2.Value = Convert.ToInt32(values[0]);
+                txtMin2.Value = Convert.ToInt32(values[1]);
+                m_StrValue2 = String.Format("{0:00}:{1:00}", Convert.ToInt16(txtHrs2.m_TxtValue.Text), Convert.ToInt16(txtMin2.m_TxtValue.Text));
+            }
         }
 
         private bool m_blnEnable = false;
         public bool blnEnable
         {
             get { return m_blnEnable; }
-            //set { m_blnEnable = value; }
+            set
+            {
+                m_blnEnable = value;
+                ckb_enable.Checked = m_blnEnable;
+            }
         }
         public void SetTxt(String StrTxt)
         {

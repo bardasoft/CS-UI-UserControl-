@@ -120,6 +120,8 @@
             // ckbDoor12_08
             // 
             this.ckbDoor12_08.AutoEllipsis = true;
+            this.ckbDoor12_08.Checked = true;
+            this.ckbDoor12_08.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_08.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_08.Name = "ckbDoor12_08";
             this.ckbDoor12_08.Size = new System.Drawing.Size(118, 24);
@@ -163,7 +165,7 @@
             this.gpbDoor12_07.Controls.Add(this.labDoor12_07);
             this.gpbDoor12_07.Controls.Add(this.labDoor12_19);
             this.gpbDoor12_07.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.gpbDoor12_07.Location = new System.Drawing.Point(8, 294);
+            this.gpbDoor12_07.Location = new System.Drawing.Point(1, 294);
             this.gpbDoor12_07.Name = "gpbDoor12_07";
             this.gpbDoor12_07.Size = new System.Drawing.Size(391, 91);
             this.gpbDoor12_07.TabIndex = 31;
@@ -173,6 +175,8 @@
             // ckbDoor12_07
             // 
             this.ckbDoor12_07.AutoEllipsis = true;
+            this.ckbDoor12_07.Checked = true;
+            this.ckbDoor12_07.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_07.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_07.Name = "ckbDoor12_07";
             this.ckbDoor12_07.Size = new System.Drawing.Size(109, 24);
@@ -226,6 +230,8 @@
             // ckbDoor12_12
             // 
             this.ckbDoor12_12.AutoEllipsis = true;
+            this.ckbDoor12_12.Checked = true;
+            this.ckbDoor12_12.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_12.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_12.Name = "ckbDoor12_12";
             this.ckbDoor12_12.Size = new System.Drawing.Size(147, 24);
@@ -279,6 +285,8 @@
             // ckbDoor12_10
             // 
             this.ckbDoor12_10.AutoEllipsis = true;
+            this.ckbDoor12_10.Checked = true;
+            this.ckbDoor12_10.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_10.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_10.Name = "ckbDoor12_10";
             this.ckbDoor12_10.Size = new System.Drawing.Size(147, 24);
@@ -332,6 +340,8 @@
             // ckbDoor12_11
             // 
             this.ckbDoor12_11.AutoEllipsis = true;
+            this.ckbDoor12_11.Checked = true;
+            this.ckbDoor12_11.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_11.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_11.Name = "ckbDoor12_11";
             this.ckbDoor12_11.Size = new System.Drawing.Size(118, 24);
@@ -385,6 +395,8 @@
             // ckbDoor12_09
             // 
             this.ckbDoor12_09.AutoEllipsis = true;
+            this.ckbDoor12_09.Checked = true;
+            this.ckbDoor12_09.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_09.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_09.Name = "ckbDoor12_09";
             this.ckbDoor12_09.Size = new System.Drawing.Size(118, 24);
@@ -438,6 +450,8 @@
             // ckbDoor12_06
             // 
             this.ckbDoor12_06.AutoEllipsis = true;
+            this.ckbDoor12_06.Checked = true;
+            this.ckbDoor12_06.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_06.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_06.Name = "ckbDoor12_06";
             this.ckbDoor12_06.Size = new System.Drawing.Size(109, 24);
@@ -480,7 +494,7 @@
             this.gpbDoor12_05.Controls.Add(this.labDoor12_05);
             this.gpbDoor12_05.Controls.Add(this.labDoor12_17);
             this.gpbDoor12_05.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.gpbDoor12_05.Location = new System.Drawing.Point(8, 197);
+            this.gpbDoor12_05.Location = new System.Drawing.Point(1, 197);
             this.gpbDoor12_05.Name = "gpbDoor12_05";
             this.gpbDoor12_05.Size = new System.Drawing.Size(391, 91);
             this.gpbDoor12_05.TabIndex = 25;
@@ -490,6 +504,8 @@
             // ckbDoor12_05
             // 
             this.ckbDoor12_05.AutoEllipsis = true;
+            this.ckbDoor12_05.Checked = true;
+            this.ckbDoor12_05.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_05.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_05.Name = "ckbDoor12_05";
             this.ckbDoor12_05.Size = new System.Drawing.Size(109, 24);
@@ -542,6 +558,8 @@
             // ckbDoor12_04
             // 
             this.ckbDoor12_04.AutoEllipsis = true;
+            this.ckbDoor12_04.Checked = true;
+            this.ckbDoor12_04.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_04.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_04.Name = "ckbDoor12_04";
             this.ckbDoor12_04.Size = new System.Drawing.Size(109, 24);
@@ -595,6 +613,8 @@
             // ckbDoor12_03
             // 
             this.ckbDoor12_03.AutoEllipsis = true;
+            this.ckbDoor12_03.Checked = true;
+            this.ckbDoor12_03.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_03.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_03.Name = "ckbDoor12_03";
             this.ckbDoor12_03.Size = new System.Drawing.Size(109, 24);
@@ -647,6 +667,8 @@
             // ckbDoor12_02
             // 
             this.ckbDoor12_02.AutoEllipsis = true;
+            this.ckbDoor12_02.Checked = true;
+            this.ckbDoor12_02.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_02.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_02.Name = "ckbDoor12_02";
             this.ckbDoor12_02.Size = new System.Drawing.Size(109, 24);
@@ -699,6 +721,8 @@
             // ckbDoor12_01
             // 
             this.ckbDoor12_01.AutoEllipsis = true;
+            this.ckbDoor12_01.Checked = true;
+            this.ckbDoor12_01.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ckbDoor12_01.Location = new System.Drawing.Point(238, 22);
             this.ckbDoor12_01.Name = "ckbDoor12_01";
             this.ckbDoor12_01.Size = new System.Drawing.Size(109, 24);

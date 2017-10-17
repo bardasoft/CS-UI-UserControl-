@@ -62,20 +62,36 @@ namespace JASH
             Parent.SizeChanged += new EventHandler(SizeChangedEvent);
         }
 
-        public void AddBand(string caption, ContentPanel content)
+        public void AddBand(string caption, ContentPanel content, int setIndex=-1)
         {
             content.outlookBar = this;
-            int index = Controls.Count;
+            int index;
+            if (setIndex < 0)//為了日後手動指定做修改 at 2017/09/11
+            {
+                index = Controls.Count;
+            }
+            else
+            {
+                index = setIndex;
+            }
             BandTagInfo bti = new BandTagInfo(this, index);
             BandPanel bandPanel = new BandPanel(caption, content, bti);
             Controls.Add(bandPanel);
             UpdateBarInfo();
             RecalcLayout(bandPanel, index);
         }
-        public void AddBand(Image im, string caption, ContentPanel content)
+        public void AddBand(Image im, string caption, ContentPanel content, int setIndex = -1)
         {
             content.outlookBar = this;
-            int index = Controls.Count;
+            int index;
+            if (setIndex < 0)//為了日後手動指定做修改 at 2017/09/11
+            {
+                index = Controls.Count;
+            }
+            else
+            {
+                index = setIndex;
+            }
             BandTagInfo bti = new BandTagInfo(this, index);
             BandPanel bandPanel = new BandPanel(im, caption, content, bti);
             Controls.Add(bandPanel);
@@ -168,7 +184,7 @@ namespace JASH
             Visible = true;
             this.bti = bti;
             Click += new EventHandler(SelectBand);
-            Click += Form1.pForm1.OutlookMenuMain_Click;//2017/01/10 讓Outlook 主按鈕的事件呼叫UI的事件函數
+            Click += Main_Frm.pForm1.OutlookMenuMain_Click;//2017/01/10 讓Outlook 主按鈕的事件呼叫UI的事件函數
             MouseLeave += new EventHandler(OnMouseLeave);
             MouseMove += new MouseEventHandler(OnMouseMove);
         }
@@ -179,7 +195,7 @@ namespace JASH
             Visible = true;
             this.bti = bti;
             Click += new EventHandler(SelectBand);
-            Click += Form1.pForm1.OutlookMenuMain_Click;//2017/01/10 讓Outlook 主按鈕的事件呼叫UI的事件函數
+            Click += Main_Frm.pForm1.OutlookMenuMain_Click;//2017/01/10 讓Outlook 主按鈕的事件呼叫UI的事件函數
             MouseLeave += new EventHandler(OnMouseLeave);
             MouseMove += new MouseEventHandler(OnMouseMove);
         }
@@ -292,17 +308,26 @@ namespace JASH
             m_ArrayList.Clear();
         }
 
-        public void AddIcon(string caption, Image image, EventHandler onClickEvent, int Height, int Placed=0)
+        public void AddIcon(string caption, Image image, EventHandler onClickEvent, int Height, int Placed=0,int setindex=-1)
         {
             int index = Controls.Count / 2;	// two entries per icon
-            PanelIcon panelIcon=null;
-            if (Placed == 0)
+            int Index;
+            if (setindex < 0)//為了日後手動指定做修改 at 2017/09/11
             {
-                panelIcon = new PanelIcon(this, image, index, index * (Height + image.Height));//panelIcon = new PanelIcon(this, image, index, onClickEvent, index * (Height + image.Height));
+                Index = index;
             }
             else
             {
-                panelIcon = new PanelIcon(this, image, index, index * (Height + image.Height), Placed);
+                Index = setindex;
+            }
+            PanelIcon panelIcon=null;
+            if (Placed == 0)
+            {
+                panelIcon = new PanelIcon(this, image, Index, index, index * (Height + image.Height));//panelIcon = new PanelIcon(this, image, index, onClickEvent, index * (Height + image.Height));
+            }
+            else
+            {
+                panelIcon = new PanelIcon(this, image, Index, index, index * (Height + image.Height), Placed);
             }
             panelIcon.Enabled = false;//2016/01/08
             Controls.Add(panelIcon);
@@ -348,7 +373,7 @@ namespace JASH
             }
         }
 
-        public PanelIcon(IconPanel parent, Image image, int index, int Height, int Placed = 0)
+        public PanelIcon(IconPanel parent, Image image, int index,int size, int Height, int Placed = 0)
         {
             this.index = index;
             this.iconPanel = parent;
@@ -357,11 +382,11 @@ namespace JASH
             if (Placed == 0)
             {
                 Location = new Point(iconPanel.outlookBar.Size.Width / 2 - image.Size.Width / 2,
-                                iconPanel.Margin + index * iconPanel.IconSpacing + Height);
+                                iconPanel.Margin + size * iconPanel.IconSpacing + Height);
             }
             else
             {
-                Location = new Point(0, iconPanel.Margin + index * iconPanel.IconSpacing + Height);
+                Location = new Point(0, iconPanel.Margin + size * iconPanel.IconSpacing + Height);
             }
             Size = image.Size;
             //Click += onClickEvent;

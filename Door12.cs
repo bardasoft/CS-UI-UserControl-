@@ -19,8 +19,8 @@ namespace JASH
         {
             for (int i = 0; i < ALgpb.Count; i++)
             {
-                ((CheckBox)ALckb[i]).Checked = false;
-                ((TextBox)ALtxt[i]).Enabled = false;
+                ((CheckBox)ALckb[i]).Checked = true;//新增控制器 預設為啟動狀態 at 2017/07/28
+                ((TextBox)ALtxt[i]).Enabled = true;//新增控制器 預設為啟動狀態 at 2017/07/28
                 ((TextBox)ALtxt[i]).Text = "";
                 ((BorderGroupBox)ALgpb[i]).Visible = false;
             }

@@ -72,6 +72,7 @@ namespace JASH
             m_TxtValue.TextChanged += new System.EventHandler(txt_TextChanged);
             m_TxtValue.KeyPress += new KeyPressEventHandler(txt_KeyPress);//允許修改而新增的事件 at 2017/07/27 21:54
             m_TxtValue.KeyUp += new KeyEventHandler(this.txt_KeyUp);//允許修改而新增的事件 at 2017/07/27 21:54
+            m_TxtValue.Leave += new System.EventHandler(this.txt_Leave);//修改期間不用應補成兩位數 at 2017/10/17
             Controls.Add(m_TxtValue);
 
             m_butUp = new Button();
@@ -93,6 +94,12 @@ namespace JASH
             Controls.Add(m_butDown);
 
         }
+
+        private void txt_Leave(object sender, EventArgs e)
+        {
+            m_TxtValue.Text = String.Format("{0:00}", m_intValue);//修改期間不用應補成兩位數 at 2017/10/17
+        }
+
         private void txt_KeyUp(object sender, KeyEventArgs e)
         {
             if(e.KeyValue == 8)//刪除鍵要直接允許
@@ -108,10 +115,11 @@ namespace JASH
             {
                 temp = m_intMinValue;
             }
+
             if (m_intMaxValue >= temp && m_intMinValue <= temp)
             {
                 m_intValue = temp;
-                m_TxtValue.Text = String.Format("{0:00}", m_intValue);
+                //修改期間不用應補成兩位數，所以把該行停用，並將該行程式移置 txt_Leave 事件中 at 2017/10/17~ m_TxtValue.Text = String.Format("{0:00}", m_intValue);
             }
             else if (m_intMaxValue < temp)
             {
@@ -124,6 +132,7 @@ namespace JASH
                 m_intValue = m_intMinValue;
             }
         }
+
         private void txt_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == 8)//刪除鍵要直接允許
@@ -142,6 +151,7 @@ namespace JASH
                 }
             }
         }
+
         public event EventHandler Value_Changed;//20170209 將內部事件轉傳
         private void txt_TextChanged(object sender, EventArgs e)
         {
@@ -184,6 +194,7 @@ namespace JASH
             //--
 
         }
+
         private void Down_Click(object sender, EventArgs e)
         {
             m_intValue--;

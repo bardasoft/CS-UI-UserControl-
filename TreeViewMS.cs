@@ -219,8 +219,8 @@ namespace JASH
             try
             {
                 TreeNode n0 = (TreeNode)m_coll[0];
-                Color back = n0.TreeView.BackColor;
-                Color fore = n0.TreeView.ForeColor;
+                Color back = n0.BackColor;//抓到指定節點顏色後，為何在選取取消後無法恢復原設定值的BUG 2017/07/29 20:44~ Color back = n0.TreeView.BackColor;
+                Color fore = n0.ForeColor;//抓到指定節點顏色後，為何在選取取消後無法恢復原設定值的BUG 2017/07/29 20:44~ Color fore = n0.TreeView.ForeColor;
 
                 foreach (TreeNode n in m_coll)
                 {

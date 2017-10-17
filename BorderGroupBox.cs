@@ -17,7 +17,7 @@ namespace JASH
         public Color BorderColor
         {
             get { return _BorderColor; }
-            set { _BorderColor = value; }
+            set { _BorderColor = value; this.Refresh(); }
         }
 
         protected override void OnPaint(PaintEventArgs e)

@@ -45,6 +45,8 @@ namespace JASH
             ckb_enable.Checked = false;
             txtHrs.Enabled = false;
             txtMin.Enabled = false;
+            ckb_001.Enabled = false;
+            ckb_001.Checked = false;
             m_StrValue = "00:00";
             m_blnEnable = false;
         }
@@ -55,12 +57,15 @@ namespace JASH
             {
                 txtHrs.Enabled = true;
                 txtMin.Enabled = true;
+                ckb_001.Enabled = true;
                 m_blnEnable = true;
             }
             else
             {
                 txtHrs.Enabled = false;
                 txtMin.Enabled = false;
+                ckb_001.Enabled = false;
+                ckb_001.Checked = false;
                 m_blnEnable = false;
             }
         }
