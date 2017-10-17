@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.borderGroupBox1 = new JASH.BorderGroupBox();
-            this.grp_ckbtext16 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext15 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext14 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext13 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext12 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext11 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext10 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext9 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext5 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext6 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext7 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext8 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext3 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext4 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext2 = new JASH.Grp_ckbtext();
-            this.grp_ckbtext1 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext16 = new Grp_ckbtext();
+            this.grp_ckbtext15 = new Grp_ckbtext();
+            this.grp_ckbtext14 = new Grp_ckbtext();
+            this.grp_ckbtext13 = new Grp_ckbtext();
+            this.grp_ckbtext12 = new Grp_ckbtext();
+            this.grp_ckbtext11 = new Grp_ckbtext();
+            this.grp_ckbtext10 = new Grp_ckbtext();
+            this.grp_ckbtext9 = new Grp_ckbtext();
+            this.grp_ckbtext5 = new Grp_ckbtext();
+            this.grp_ckbtext6 = new Grp_ckbtext();
+            this.grp_ckbtext7 = new Grp_ckbtext();
+            this.grp_ckbtext8 = new Grp_ckbtext();
+            this.grp_ckbtext3 = new Grp_ckbtext();
+            this.grp_ckbtext4 = new Grp_ckbtext();
+            this.grp_ckbtext2 = new Grp_ckbtext();
+            this.grp_ckbtext1 = new Grp_ckbtext();
             this.borderGroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 

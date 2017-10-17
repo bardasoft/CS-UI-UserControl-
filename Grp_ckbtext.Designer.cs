@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.ckbtext8 = new JASH.ckbtext();
-            this.ckbtext7 = new JASH.ckbtext();
-            this.ckbtext6 = new JASH.ckbtext();
-            this.ckbtext5 = new JASH.ckbtext();
-            this.ckbtext4 = new JASH.ckbtext();
-            this.ckbtext3 = new JASH.ckbtext();
-            this.ckbtext2 = new JASH.ckbtext();
-            this.ckbtext1 = new JASH.ckbtext();
+            this.ckbtext8 = new ckbtext();
+            this.ckbtext7 = new ckbtext();
+            this.ckbtext6 = new ckbtext();
+            this.ckbtext5 = new ckbtext();
+            this.ckbtext4 = new ckbtext();
+            this.ckbtext3 = new ckbtext();
+            this.ckbtext2 = new ckbtext();
+            this.ckbtext1 = new ckbtext();
             this.SuspendLayout();
             // 
             // checkBox1
