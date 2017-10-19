@@ -12,7 +12,25 @@ namespace JASH
 {
     public partial class Grp_ckbtext : UserControl
     {
-        public ArrayList m_ALckvtext = new ArrayList();
+        public ArrayList m_ALckvtext = new ArrayList();//存放所有子ckbtext元件
+
+        //--
+        //add 2017/10/19
+        private int m_intGroupNum;
+        [Browsable(true), Category("自訂屬性"), Description("設定是第幾組電梯群組")]
+        public int IntGroupNum
+        {
+            get
+            {
+                return m_intGroupNum;
+            }
+            set
+            {
+                m_intGroupNum = value;
+            }
+        }
+        //--
+        
         private String m_StrText;
         [Browsable(true), Category("自訂屬性"), Description("編號區間顯示文字")]
         public String StrText
@@ -46,19 +64,21 @@ namespace JASH
             InitializeComponent();
 
             m_ALckvtext.Clear();
-            m_ALckvtext.Add(ckbtext1);
-            m_ALckvtext.Add(ckbtext2);
-            m_ALckvtext.Add(ckbtext3);
-            m_ALckvtext.Add(ckbtext4);
-            m_ALckvtext.Add(ckbtext5);
-            m_ALckvtext.Add(ckbtext6);
-            m_ALckvtext.Add(ckbtext7);
-            m_ALckvtext.Add(ckbtext8);
+            m_ALckvtext.Add(ckbtext1);//存放所有子ckbtext元件
+            m_ALckvtext.Add(ckbtext2);//存放所有子ckbtext元件
+            m_ALckvtext.Add(ckbtext3);//存放所有子ckbtext元件
+            m_ALckvtext.Add(ckbtext4);//存放所有子ckbtext元件
+            m_ALckvtext.Add(ckbtext5);//存放所有子ckbtext元件
+            m_ALckvtext.Add(ckbtext6);//存放所有子ckbtext元件
+            m_ALckvtext.Add(ckbtext7);//存放所有子ckbtext元件
+            m_ALckvtext.Add(ckbtext8);//存放所有子ckbtext元件
 
             for (int i = 0; i < m_ALckvtext.Count; i++)
             {
                 ((ckbtext)m_ALckvtext[i]).Enabled = checkBox1.Checked;//((ckbtext)m_ALckvtext[i]).blnUsed = ((CheckBox)sender).Checked;
             }
+
+            m_intGroupNum = 0;//add 2017/10/19
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -66,6 +86,18 @@ namespace JASH
             for (int i = 0; i < m_ALckvtext.Count; i++)
             {
                 ((ckbtext)m_ALckvtext[i]).Enabled = ((CheckBox)sender).Checked;//((ckbtext)m_ALckvtext[i]).blnUsed = ((CheckBox)sender).Checked;
+
+                //--
+                //add 2017/10/19
+                if (m_intGroupNum > 0)
+                {
+                    ((ckbtext)m_ALckvtext[i]).m_FloorNum = (8*m_intGroupNum) + 1 + i;
+                }
+                else
+                {
+                    ((ckbtext)m_ALckvtext[i]).m_FloorNum = (int)Math.Pow(8, m_intGroupNum) + i;
+                }
+                //--
             }
         }
 

@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.borderGroupBox1 = new JASH.BorderGroupBox();
-            this.grp_ckbtext16 = new Grp_ckbtext();
-            this.grp_ckbtext15 = new Grp_ckbtext();
-            this.grp_ckbtext14 = new Grp_ckbtext();
-            this.grp_ckbtext13 = new Grp_ckbtext();
-            this.grp_ckbtext12 = new Grp_ckbtext();
-            this.grp_ckbtext11 = new Grp_ckbtext();
-            this.grp_ckbtext10 = new Grp_ckbtext();
-            this.grp_ckbtext9 = new Grp_ckbtext();
-            this.grp_ckbtext5 = new Grp_ckbtext();
-            this.grp_ckbtext6 = new Grp_ckbtext();
-            this.grp_ckbtext7 = new Grp_ckbtext();
-            this.grp_ckbtext8 = new Grp_ckbtext();
-            this.grp_ckbtext3 = new Grp_ckbtext();
-            this.grp_ckbtext4 = new Grp_ckbtext();
-            this.grp_ckbtext2 = new Grp_ckbtext();
-            this.grp_ckbtext1 = new Grp_ckbtext();
+            this.grp_ckbtext16 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext15 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext14 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext13 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext12 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext11 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext10 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext9 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext5 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext6 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext7 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext8 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext3 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext4 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext2 = new JASH.Grp_ckbtext();
+            this.grp_ckbtext1 = new JASH.Grp_ckbtext();
             this.borderGroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,6 +78,7 @@
             // 
             this.grp_ckbtext16.blnChildsEnabled = false;
             this.grp_ckbtext16.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext16.IntGroupNum = 15;
             this.grp_ckbtext16.Location = new System.Drawing.Point(1502, 26);
             this.grp_ckbtext16.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext16.Name = "grp_ckbtext16";
@@ -89,6 +90,7 @@
             // 
             this.grp_ckbtext15.blnChildsEnabled = false;
             this.grp_ckbtext15.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext15.IntGroupNum = 14;
             this.grp_ckbtext15.Location = new System.Drawing.Point(1402, 26);
             this.grp_ckbtext15.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext15.Name = "grp_ckbtext15";
@@ -100,6 +102,7 @@
             // 
             this.grp_ckbtext14.blnChildsEnabled = false;
             this.grp_ckbtext14.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext14.IntGroupNum = 13;
             this.grp_ckbtext14.Location = new System.Drawing.Point(1302, 26);
             this.grp_ckbtext14.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext14.Name = "grp_ckbtext14";
@@ -111,6 +114,7 @@
             // 
             this.grp_ckbtext13.blnChildsEnabled = false;
             this.grp_ckbtext13.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext13.IntGroupNum = 12;
             this.grp_ckbtext13.Location = new System.Drawing.Point(1202, 26);
             this.grp_ckbtext13.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext13.Name = "grp_ckbtext13";
@@ -122,6 +126,7 @@
             // 
             this.grp_ckbtext12.blnChildsEnabled = false;
             this.grp_ckbtext12.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext12.IntGroupNum = 11;
             this.grp_ckbtext12.Location = new System.Drawing.Point(1102, 26);
             this.grp_ckbtext12.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext12.Name = "grp_ckbtext12";
@@ -133,6 +138,7 @@
             // 
             this.grp_ckbtext11.blnChildsEnabled = false;
             this.grp_ckbtext11.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext11.IntGroupNum = 10;
             this.grp_ckbtext11.Location = new System.Drawing.Point(1002, 26);
             this.grp_ckbtext11.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext11.Name = "grp_ckbtext11";
@@ -144,6 +150,7 @@
             // 
             this.grp_ckbtext10.blnChildsEnabled = false;
             this.grp_ckbtext10.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext10.IntGroupNum = 9;
             this.grp_ckbtext10.Location = new System.Drawing.Point(902, 26);
             this.grp_ckbtext10.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext10.Name = "grp_ckbtext10";
@@ -155,6 +162,7 @@
             // 
             this.grp_ckbtext9.blnChildsEnabled = false;
             this.grp_ckbtext9.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext9.IntGroupNum = 8;
             this.grp_ckbtext9.Location = new System.Drawing.Point(802, 26);
             this.grp_ckbtext9.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext9.Name = "grp_ckbtext9";
@@ -166,6 +174,7 @@
             // 
             this.grp_ckbtext5.blnChildsEnabled = false;
             this.grp_ckbtext5.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext5.IntGroupNum = 7;
             this.grp_ckbtext5.Location = new System.Drawing.Point(702, 26);
             this.grp_ckbtext5.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext5.Name = "grp_ckbtext5";
@@ -177,6 +186,7 @@
             // 
             this.grp_ckbtext6.blnChildsEnabled = false;
             this.grp_ckbtext6.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext6.IntGroupNum = 6;
             this.grp_ckbtext6.Location = new System.Drawing.Point(602, 26);
             this.grp_ckbtext6.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext6.Name = "grp_ckbtext6";
@@ -188,6 +198,7 @@
             // 
             this.grp_ckbtext7.blnChildsEnabled = false;
             this.grp_ckbtext7.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext7.IntGroupNum = 5;
             this.grp_ckbtext7.Location = new System.Drawing.Point(502, 26);
             this.grp_ckbtext7.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext7.Name = "grp_ckbtext7";
@@ -199,6 +210,7 @@
             // 
             this.grp_ckbtext8.blnChildsEnabled = false;
             this.grp_ckbtext8.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext8.IntGroupNum = 4;
             this.grp_ckbtext8.Location = new System.Drawing.Point(402, 26);
             this.grp_ckbtext8.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext8.Name = "grp_ckbtext8";
@@ -210,6 +222,7 @@
             // 
             this.grp_ckbtext3.blnChildsEnabled = false;
             this.grp_ckbtext3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext3.IntGroupNum = 3;
             this.grp_ckbtext3.Location = new System.Drawing.Point(302, 26);
             this.grp_ckbtext3.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext3.Name = "grp_ckbtext3";
@@ -221,6 +234,7 @@
             // 
             this.grp_ckbtext4.blnChildsEnabled = false;
             this.grp_ckbtext4.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext4.IntGroupNum = 2;
             this.grp_ckbtext4.Location = new System.Drawing.Point(202, 26);
             this.grp_ckbtext4.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext4.Name = "grp_ckbtext4";
@@ -232,6 +246,7 @@
             // 
             this.grp_ckbtext2.blnChildsEnabled = false;
             this.grp_ckbtext2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext2.IntGroupNum = 1;
             this.grp_ckbtext2.Location = new System.Drawing.Point(102, 26);
             this.grp_ckbtext2.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext2.Name = "grp_ckbtext2";
@@ -243,6 +258,7 @@
             // 
             this.grp_ckbtext1.blnChildsEnabled = false;
             this.grp_ckbtext1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.grp_ckbtext1.IntGroupNum = 0;
             this.grp_ckbtext1.Location = new System.Drawing.Point(2, 26);
             this.grp_ckbtext1.Margin = new System.Windows.Forms.Padding(5);
             this.grp_ckbtext1.Name = "grp_ckbtext1";
