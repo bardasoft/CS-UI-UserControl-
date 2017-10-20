@@ -57,7 +57,10 @@ namespace JASH
             //add 2017/10/19
             if (((CheckBox)sender).Checked)
             {
-                textBox1.Text = String.Format("{0:000}F", m_FloorNum); ;
+                if (textBox1.Text == "")
+                {
+                    textBox1.Text = String.Format("{0:000}F", m_FloorNum);
+                }
             }
             else
             {
